@@ -20,8 +20,8 @@ document.getElementById('changeStatusButton').addEventListener('click', function
     });
 });
 
-// start of Ivan's function, newStatus gets passed from popup.html to the changeStatus function via selectedStatus 
-// which is then injected into the page. 
+// start of Ivan's status change function - 
+// selectedStatus gets passed from popup.html to the changeStatus function via the newStatus argument below.
 function changeStatus(newStatus) {
     var statusChanged = false;
     var statusElements = document.querySelectorAll('.slds-truncate');
