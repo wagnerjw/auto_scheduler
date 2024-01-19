@@ -1,3 +1,5 @@
+// below is the code for the bookmarklets from Ivan
+
 //ERP - Available Status
 javascript:function changeStatusToERP() {
     var newStatus = 'ERP - Available';
